@@ -99,8 +99,8 @@
 							<header class="align-center">
 								<h2>Stop Rate</h2>
 							</header>
-								The stop rate is the proportion of drivers stopped compaired to the population of the city.
-								For all cities the stop rate is higher for men.
+							The stop rate is the proportion of drivers stopped compaired to the population of the city.
+							For all cities the stop rate is higher for men.
 						</div>
 					</div>
 				</div>
@@ -170,30 +170,30 @@
 				<p>Equal treatment for male and female drivers having committed the same infraction ?</p>
 			</header>
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
-			To assess if men and women are treated equally, we matched them in pairs and compared the
-			decision taken by the police officer. The matching allows to pair one male driver with one female
-			driver presenting a similar subjective signal to the police officer. Men-Women pairs have the same race to
-			avoid a potential racial bias. They belong to the same age category (more or less than 45 years old).
-			The age is used as a proxy for the attractiveness of the drivers.
+				To assess if men and women are treated equally, we matched them in pairs and compared the
+				decision taken by the police officer. The matching allows to pair one male driver with one female
+				driver presenting a similar subjective signal to the police officer. Men-Women pairs have the same race to
+				avoid a potential racial bias. They belong to the same age category (more or less than 45 years old).
+				The age is used as a proxy for the attractiveness of the drivers.
 			</p>
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
 
-			When analyzing the search decision, the pairs have also the same reason for search which allows
-			to compare drivers offering to the officer a similar suspicion level to find contraband.
-	</p>
+				When analyzing the search decision, the pairs have also the same reason for search which allows
+				to compare drivers offering to the officer a similar suspicion level to find contraband.
+			</p>
 
 
-	<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
-		When analyzing the stop outcome decision, the pairs have also the same reason for stop
-		and the same search issue (contraband found or not). This allow to compare drivers having
-		committed the same infractions.
+			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
+				When analyzing the stop outcome decision, the pairs have also the same reason for stop
+				and the same search issue (contraband found or not). This allow to compare drivers having
+				committed the same infractions.
 
 			</p>
 
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
 				The results are displayed on the maps bellow.
 
-					</p>
+			</p>
 		</div>
 
 	</section>
@@ -236,12 +236,12 @@
 
 					<p style="text-align:justify;text-align-last:left;">
 
-				The map below presents the average outcome difference (AOD) in the arrestation/citation decision.
-				If the driver has been arrested or a citation has been issued the outcome is set to 1 (severe
-				decision). If the driver receives a warning only, the outcome is set to 0. Except for
-				police departments of North Carolina and Tennessee, the AOD is significantly negative (95% confidence
-				intervals can be displayed by clicking on the map). For
-				these cases, police officers tend to let women go more easily than men for the same infraction.
+						The map below presents the average outcome difference (AOD) in the arrestation/citation decision.
+						If the driver has been arrested or a citation has been issued the outcome is set to 1 (severe
+						decision). If the driver receives a warning only, the outcome is set to 0. Except for
+						police departments of North Carolina and Tennessee, the AOD is significantly negative (95% confidence
+						intervals can be displayed by clicking on the map). For
+						these cases, police officers tend to let women go more easily than men for the same infraction.
 
 					</p>
 				</div>
@@ -336,20 +336,50 @@
 	<!--//===============================================================fin part2====================================================================== -->
 
 	<!--//===============================================================debut part3====================================================================== -->
-	<section id="one" class="wrapper style3" style="padding: 3rem 0 2rem 0;background-image: url('images/bg.png')">
+	<section id="one" class="wrapper style3" style="padding: 3rem 0 2rem 0;background-image: url('images/transition.jpg')">
 		<div class="inner">
 			<header class="align-center">
 				<p></p>
-				<h2>Case study : Gender disparities in Florida state policing</h2>
+				<h2>Case study on Florida state : influence of the officers' gender on the stop outcome decision</h2>
 			</header>
 		</div>
 	</section>
-
 	<section id="one" class="wrapper style2" style="background-color: #143D49;padding-top:50;padding-bottom:50;">
+		<div class="content" style="background-color: #143D49;color: #F2F2F2; margin-bottom: 20px;width:80%;margin-left:10%;text-align: justify; text-align-last: left;">
+			<p>
+				Let's dig into even more details concerning stop decisions. What happens if we split female from male officers, and look for the average outcome difference ? The aim of this analysis is to find out if the officer's gender has an impact on a
+				potential bias in decision making. For this purpose, a similar methodology is applied as before to balance our dataset, and outcome difference for each type of potential violation will be compared. Very few datasets contain all information
+				needed
+				for this analysis, hence it is performed only on the big dataset of Florida state (3.2 Mio stop records for men officers, 0.25 Mio for women officers before filtering).
+			</p>
+		</div>
+
 		<div class="inner">
 			<div class="grid-style" style="border-radius: 5px;">
 
-				<div style="width:67%;border-radius: 5px;">
+				<div style="width:57%;border-radius: 5px;">
+					<div class="box" style="background-color: rgba(0,0,0,0);">
+						<div class="image fit" style="background-color: rgba(0,0,0,0);">
+							<iframe id="graph2test" style="background-color: rgba(0,0,0,0);" width="100%" height="700" src="graphs/MW_gen_AOD_off.html"></iframe>
+						</div>
+					</div>
+				</div>
+
+				<div class="box" style="width:40%;border-radius: 5px;background-color: rgba(0,0,0,0);margin-left:3%;color: #F2F2F2;">
+					<div class="content">
+						<p style="text-align:justify;text-align-last:left;">
+							The AOD for the woman officers is near 0, and the confidence interval ranges from negative to positive values:<br /><br /> at this point, it is not possible to determine whether woman officers take biased decisions. However, it seems
+							different for men : their average outcome when deciding on the outcome of a stop seems to indicate that they tend to search men more than woman drivers, even if the age range, race, subjective indicator (reason for stop) are identical
+							for them.
+						</p>
+					</div>
+				</div>
+
+
+			</div>
+			<div class="grid-style" style="border-radius: 5px;">
+
+				<div style="width:57%;border-radius: 5px;">
 					<div class="box" style="background-color: rgba(0,0,0,0);">
 						<div class="image fit" style="background-color: rgba(0,0,0,0);">
 							<iframe id="graph2test" style="background-color: rgba(0,0,0,0);" width="100%" height="700" src="graphs/MW_off.html"></iframe>
@@ -357,16 +387,18 @@
 					</div>
 				</div>
 
-				<div class="box" style="width:30%;border-radius: 5px;background-color: rgba(0,0,0,0);margin-left:3%;color: #F2F2F2;">
+				<div class="box" style="width:40%;border-radius: 5px;background-color: rgba(0,0,0,0);margin-left:3%;color: #F2F2F2;">
 					<div class="content">
-						<header class="align-center">
-							<h2 style="color: #F2F2F2;">Change in meat price in France does not seem to explain change in consumption</h2>
-						</header>
 						<p style="text-align:justify;text-align-last:left;">
 							<br />
-							We can see that all types of meat follow an oscillating price pattern.
-							On the graph above we can see that the main pattern in the consumption of meat is a drop following 2008.<br /><br />
-							As such, prices do not follow an inverse pattern to consumption, and do not seem to have a big influence on consumption.
+							From the results when splitting men from women officers, and splitting the group by type of reason, some interesting findings appear :<br /><br />
+							- Men officers are more gentle with female drivers, reprehending them less than male drivers, whereas women officers do not make a significant difference between them. The exact inverse conclusion can be drawn for the seatbelt
+							violation.<br /><br />
+							- Both men and women officers seem more gentle with female drivers that have faulty equipment, as well as other types of TAG or registration violations.<br /><br />
+							- Men officers seem particularly biased regarding "Other type of moving violation" : hence men officers decide themselves for harder outcomes when facing a male driver. This is however not the case for female officers, acting equally on
+							male and female drivers for this violation type.<br /><br />
+							- Female officers seem particularly biased with female for traffic control device violation : they tend to let them get away more easily than men drivers.
+
 						</p>
 					</div>
 				</div>
