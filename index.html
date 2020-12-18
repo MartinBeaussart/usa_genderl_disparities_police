@@ -141,10 +141,10 @@
 							</header>
 							The hit rate is the proportion of searched drivers for which contraband (drugs, guns) has between
 							found. We performed a statistical Fisher test to assess if the proportion of men carrying contraband
-							among all searched men is significantly different than the one of women. The lighter the color of
-							the dot, the high the significance. With the exception of Greensboro we observe higher it reates
-							for men. However, only one is significantly different than women's hit rate. It seems not justified
-							to seach men more than women.
+							among all searched men is significantly different than the one of women. The darker the color of
+							the dot, the higher the significance. With the exception of Greensboro, for which women have a significant higher hit rate, we observe higher hit rates
+							for men. However, only one is significantly different than women's hit rate (Raleigh). It seems generally not justified
+							to search men more than women.
 						</div>
 					</div>
 				</div>
@@ -174,25 +174,15 @@
 				<p>Equal treatment for male and female drivers having committed the same infraction ?</p>
 			</header>
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
-				To assess if men and women are treated equally, we matched them in pairs and compared the
-				decision taken by the police officer. The matching allows to pair one male driver with one female
-				driver presenting a similar subjective signal to the police officer. Men-Women pairs have the same race to
-				avoid a potential racial bias. They belong to the same age category (more or less than 45 years old).
+			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
+				To assess if men and women are treated equally, they are paired and their outcome decision taken by the police officer 
+				is compared. The matching allows to pair one male driver with one female
+				driver presenting a similar subjective signal to the police officer : same race (to
+				avoid a potential racial bias), same age category (more or less than 45 years old), same reason for search 
+				(to compare drivers offering to the officer a similar suspicion level to find contraband) and same search issue.
 				The age is used as a proxy for the attractiveness of the drivers.
 			</p>
-			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
 
-				When analyzing the search decision, the pairs have also the same reason for search which allows
-				to compare drivers offering to the officer a similar suspicion level to find contraband.
-			</p>
-
-
-			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
-				When analyzing the stop outcome decision, the pairs have also the same reason for stop
-				and the same search issue (contraband found or not). This allow to compare drivers having
-				committed the same infractions.
-
-			</p>
 
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
 				The results are displayed on the maps bellow.
@@ -239,8 +229,9 @@
 					</header>
 
 					<p style="text-align:justify;text-align-last:left;">
-
-						The map below presents the average outcome difference (AOD) in the arrestation/citation decision.
+						Now, when analyzing the stop outcome decision, the matched pairs have also the same reason for stop (instead of reason for search)
+						and the same search issue (contraband found or not). This allow again to compare only drivers having
+						committed the same infractions. The map below presents the average outcome difference (AOD) of a stop in the arrestation/citation decision.
 						If the driver has been arrested or a citation has been issued the outcome is set to 1 (severe
 						decision). If the driver receives a warning only, the outcome is set to 0. Except for
 						police departments of North Carolina and Tennessee, the AOD is significantly negative (95% confidence
@@ -277,15 +268,18 @@
 					</p>
 
 					<p style="text-align: justify; text-align-last: left;">
-
 						The figure bellow compares the AOD in the search decision of stops where
 						the car has been searched to stops where it wasn’t. We observe AODs of 0 for
-						some police departments. These cases are specific to the dataset. The search
+						some police departments. These cases are specific to the dataset, as appearently, 
+						if there is a reason for stop, some police department necessarily have either the 
+						vehicle or the person searched (other state have also frisk that can be performed, 
+						or simply indicate no search even if there was a reason for that is written). The search
 						reason feature refers also to the person search meaning that by matching pairs
-						on the search reason we have only drivers that have been searched when their car
+						on the search reason, we have only drivers that have been searched when their car
 						wasn’t. For the datasets of Charlotte and Greensboro, we observe lower AOD for
 						cases where the car was searched than where it wasn’t. The difference between
 						men and women is then smaller.
+
 
 					</p>
 				</div>
@@ -296,18 +290,6 @@
 				</div>
 			</div>
 		</div>
-
-		<!--k mean plot with text -->
-		<div class="inner">
-			<div class="gallery">
-
-				<div>
-					<div class="image fit" style="background-color: rgba(0,0,0,0);">
-						<iframe id="map_gdp" style="background-color: rgba(0,0,0,0);" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="graphs/AOD_s2.html"></iframe>
-					</div>
-				</div>
-
-
 
 			</div>
 
