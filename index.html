@@ -99,10 +99,8 @@
 							<header class="align-center">
 								<h2>Stop Rate</h2>
 							</header>
-							The idea of a legal right to truth is distinct from the pre-existing understanding of the importance of establishing the truth about what happened in a case of human rights violation.[3] In 1977, Protocol I to the Geneva Conventions
-							enshrined a right for families of people killed in armed conflicts to find out what happened to their relatives.[9] A 1993 conference at the Catholic Institute for International Relations addressed the right to truth.[10] The right to
-							truth has been recognized in international soft law instruments such as the United Nations Principles to Combat Impunity (2005)[11][12] and UN General Assembly Resolution 60/147, as well as by the 2011 appointment of a United Nations
-
+								The stop rate is the proportion of drivers stopped compaired to the population of the city.
+								For all cities the stop rate is higher for men.
 						</div>
 					</div>
 				</div>
@@ -113,12 +111,12 @@
 					<div class="box" style="width=10%">
 						<div class="content">
 							<header class="align-center">
-								<h2>Hit Rate</h2>
+								<h2>Search Rate</h2>
 							</header>
-							The idea of a legal right to truth is distinct from the pre-existing understanding of the importance of establishing the truth about what happened in a case of human rights violation.[3] In 1977, Protocol I to the Geneva Conventions
-							enshrined a right for families of people killed in armed conflicts to find out what happened to their relatives.[9] A 1993 conference at the Catholic Institute for International Relations addressed the right to truth.[10] The right to
-							truth has been recognized in international soft law instruments such as the United Nations Principles to Combat Impunity (2005)[11][12] and UN General Assembly Resolution 60/147, as well as by the 2011 appointment of a United Nations
-
+							The search rate is the proportion of stopped drivers that have been searched. It is represented
+							for the search of the car as well as the serch of the person. We observe higher person search
+							rates on women.
+							</menu>
 						</div>
 					</div>
 				</div>
@@ -135,12 +133,14 @@
 					<div class="box" style="width=10%">
 						<div class="content">
 							<header class="align-center">
-								<h2>Hit Rate compute julie</h2>
+								<h2>Hit Rate </h2>
 							</header>
-							The idea of a legal right to truth is distinct from the pre-existing understanding of the importance of establishing the truth about what happened in a case of human rights violation.[3] In 1977, Protocol I to the Geneva Conventions
-							enshrined a right for families of people killed in armed conflicts to find out what happened to their relatives.[9] A 1993 conference at the Catholic Institute for International Relations addressed the right to truth.[10] The right to
-							truth has been recognized in international soft law instruments such as the United Nations Principles to Combat Impunity (2005)[11][12] and UN General Assembly Resolution 60/147, as well as by the 2011 appointment of a United Nations
-
+							The hit rate is the proportion of searched drivers for which contraband (drugs, guns) has between
+							found. We performed a statistical Fisher test to assess if the proportion of men carrying contraband
+							among all searched men is significantly different than the one of women. The lighter the color of
+							the dot, the high the significance. With the exception of Greensboro we observe higher it reates
+							for men. However, only one is significantly different than women's hit rate. It seems not justified
+							to seach men more than women.
 						</div>
 					</div>
 				</div>
@@ -162,19 +162,38 @@
 	<section id="three" class="wrapper style2" style="background-color: #2B2B2B;color: #FFFFFF;">
 		<div class="inner">
 			<header class="align-center">
-				<p class="special">AOD</p>
+				<p class="special">Search and arrestation/citation decision</p>
 			</header>
 		</div>
 		<div class="content">
 			<header class="align-center">
-				<p>Wealth and Meat Consumption in Europe</p>
+				<p>Equal treatment for male and female drivers having committed the same infraction ?</p>
 			</header>
 			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
-				As meat is typically expensive, we could expect an association between the wealth of a country and its meat consumption.
-				All countries in Europe do not have the same quality of life, and life quality may also influence meat consumption.
-				We use GDP per capita to measure country wealth, and our data is from the <a style="color: #06547A;" href="https://data.oecd.org/gdp/gross-domestic-product-gdp.htm">OECD</a>.
-				Let us first plot the GDP per capita over the last ten years. <br />
+			To assess if men and women are treated equally, we matched them in pairs and compared the
+			decision taken by the police officer. The matching allows to pair one male driver with one female
+			driver presenting a similar subjective signal to the police officer. Men-Women pairs have the same race to
+			avoid a potential racial bias. They belong to the same age category (more or less than 45 years old).
+			The age is used as a proxy for the attractiveness of the drivers.
 			</p>
+			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
+
+			When analyzing the search decision, the pairs have also the same reason for search which allows
+			to compare drivers offering to the officer a similar suspicion level to find contraband.
+	</p>
+
+
+	<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
+		When analyzing the stop outcome decision, the pairs have also the same reason for stop
+		and the same search issue (contraband found or not). This allow to compare drivers having
+		committed the same infractions.
+
+			</p>
+
+			<p style="width:70%;margin-left:15%;text-align:justify;text-align-last:left;">
+				The results are displayed on the maps bellow.
+
+					</p>
 		</div>
 
 	</section>
@@ -184,31 +203,52 @@
 
 			<!--first map with text -->
 			<div class="gallery">
+				<div class="content" style="width:70%;margin-left:15%;margin-top:50px;color: #2B2B2B;font-size: 1.2rem;">
+					<header class="align-center">
+						<h2>SEARCH DECISION</h2>
+					</header>
 
+					<p style="text-align:justify;text-align-last:left;">
+
+						The map below presents the average outcome difference (AOD) in the personal
+						search decision between men and women. If the driver is searched,
+						the outcome is set to 1 and kept to 0 otherwise. The difference is computed
+						as the outcome for men minus the outcome for women. A positive value indicates
+						that men are more searched. For all the states analyzed, the difference is
+						significantly positive (95% confidence intervals can be displayed by clicking on
+						the map). Men appear to be more searched than women for similar suspicion degree to
+						be carrying contraband.
+
+					</p>
+				</div>
 				<div>
 					<div class="image fit" style="background-color: rgba(0,0,0,0);">
 						<iframe id="map_gdp" style="background-color: rgba(0,0,0,0);" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="1000" src="graphs/map1.html"></iframe>
 					</div>
 				</div>
+
+
+
 				<div class="content" style="width:70%;margin-left:15%;margin-top:50px;color: #2B2B2B;font-size: 1.2rem;">
+					<header class="align-center">
+						<h2>ARRESTATION/CITATION DECISION</h2>
+					</header>
+
 					<p style="text-align:justify;text-align-last:left;">
-						We can see that Western Europe and northern countries have a high gdp per capita, and eastern countries lower.
-						We can also note that GDP per capita has been growing for all countries.<br /><br /> Do we also see an increase in meat consumption ?<br />
-						Let's plot the meat consumption per gdp per capita, for all countries and all dates from 2004 to 2013. <br />
+
+				The map below presents the average outcome difference (AOD) in the arrestation/citation decision.
+				If the driver has been arrested or a citation has been issued the outcome is set to 1 (severe
+				decision). If the driver receives a warning only, the outcome is set to 0. Except for
+				police departments of North Carolina and Tennessee, the AOD is significantly negative (95% confidence
+				intervals can be displayed by clicking on the map). For
+				these cases, police officers tend to let women go more easily than men for the same infraction.
+
 					</p>
 				</div>
-
 				<div>
 					<div class="image fit" style="background-color: rgba(0,0,0,0);">
 						<iframe id="map_gdp" style="background-color: rgba(0,0,0,0);" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="1000" src="graphs/map2.html"></iframe>
 					</div>
-				</div>
-				<div class="content" style="width:70%;margin-left:15%;margin-top:50px;color: #2B2B2B;font-size: 1.2rem;">
-					<p style="text-align:justify;text-align-last:left;">
-						We can see that Western Europe and northern countries have a high gdp per capita, and eastern countries lower.
-						We can also note that GDP per capita has been growing for all countries.<br /><br /> Do we also see an increase in meat consumption ?<br />
-						Let's plot the meat consumption per gdp per capita, for all countries and all dates from 2004 to 2013. <br />
-					</p>
 				</div>
 
 			</div>
@@ -220,17 +260,35 @@
 		<!--interpolation with text -->
 		<div class="inner">
 			<div class="gallery">
+
+				<div class="content" style="width:70%;margin-left:15%;">
+					<header class="align_center">
+						<h2>When the driver is searched but not his/her car... </h2>
+					</header>
+					<p style="text-align: justify; text-align-last: left;">
+						When a police officer is suspecting the driver to be carrying contraband,
+						he can search him/her and his/her car. While looking for drugs or guns it would be
+						surprising to search the person but not the car. These cases could be instances
+						of unwarranted person searches and sexual assault.
+					</p>
+
+					<p style="text-align: justify; text-align-last: left;">
+
+						The figure bellow compares the AOD in the search decision of stops where
+						the car has been searched to stops where it wasn’t. We observe AODs of 0 for
+						some police departments. These cases are specific to the dataset. The search
+						reason feature refers also to the person search meaning that by matching pairs
+						on the search reason we have only drivers that have been searched when their car
+						wasn’t. For the datasets of Charlotte and Greensboro, we observe lower AOD for
+						cases where the car was searched than where it wasn’t. The difference between
+						men and women is then smaller.
+
+					</p>
+				</div>
 				<div>
 					<div class="image fit" style="background-color: rgba(0,0,0,0);">
 						<iframe id="map_gdp" style="background-color: rgba(0,0,0,0);" frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="650" src="graphs/AOD_vehicule.html"></iframe>
 					</div>
-				</div>
-				<div class="content" style="width:70%;margin-left:15%;">
-					<p style="text-align: justify; text-align-last: left;">
-						We see what seems like a <span class="meatTitle" style="color: #06547A;">fairly strong correlation</span> between gdp and meat consumption, with R-squared value of 0.3 for degree 1 and 0.38 for degree 3.
-						From the degree 1 regression line, we could roughly expect an increase of 0.004 of meat consumption per increase of GDP per capita.<br /><br />
-						This picture is however not quite right; we now plot the result also by year, and additionally group countries by <span class="meatTitle" style="color: #06547A;">clustering</span> using k-means, with 3 clusters. <br />
-					</p>
 				</div>
 			</div>
 		</div>
@@ -245,17 +303,24 @@
 					</div>
 				</div>
 
-				<div class="content" style="margin-top: 50px;width:80%;margin-left:10%;text-align: justify; text-align-last: left;">
-					<p>
-						We can first note that the clustering is meaningful: the first group corresponds roughly to poorer countries (mostly eastern), the second group to richer EU countries, and the third to Luxembourg.
-						These groupings are also stable through time, with essentially only Spain and Greece moving from group 2 to group 1, which makes sense as these two countries have been particularly hit by the <span class="meatTitle"
-							style="color: #06547A;">2008 economic crisis</span>.
-					</p>
-				</div>
+
 
 			</div>
 
 			<div class="gallery">
+
+				<div class="inner" style="margin-top: 50px;width:80%;margin-left:10%;text-align: justify; text-align-last: left;">
+					<header class="align_center">
+						<h2>For which infraction are women let free more than men ? </h2>
+					</header>
+					<p>
+						This question can be answered by looking at the AODs presented in the figure bellow. All <thead>
+							different reasons for stop are represented. Some of them are not infractions and some other
+							are not very precise. With some exceptions, men are in general more easily let free than
+							women.
+						</thead>
+					</p>
+				</div>
 
 				<div>
 					<div class="image fit" style="background-color: rgba(0,0,0,0);">
@@ -263,13 +328,7 @@
 					</div>
 				</div>
 
-				<div class="content" style="margin-top: 50px;width:80%;margin-left:10%;text-align: justify; text-align-last: left;">
-					<p>
-						We can first note that the clustering is meaningful: the first group corresponds roughly to poorer countries (mostly eastern), the second group to richer EU countries, and the third to Luxembourg.
-						These groupings are also stable through time, with essentially only Spain and Greece moving from group 2 to group 1, which makes sense as these two countries have been particularly hit by the <span class="meatTitle"
-							style="color: #06547A;">2008 economic crisis</span>.
-					</p>
-				</div>
+
 
 			</div>
 		</div>
@@ -277,7 +336,7 @@
 	<!--//===============================================================fin part2====================================================================== -->
 
 	<!--//===============================================================debut part3====================================================================== -->
-	<section id="one" class="wrapper style3" style="padding: 3rem 0 2rem 0;background-image: url('images/transition.jpg')">
+	<section id="one" class="wrapper style3" style="padding: 3rem 0 2rem 0;background-image: url('images/bg.png')">
 		<div class="inner">
 			<header class="align-center">
 				<p></p>
@@ -342,7 +401,7 @@
 	<footer id="footer">
 
 		<div class="copyright">
-			&copy; Team littlepandas 2020. All rights reserved.
+			&copy; Team unADApted 2019. All rights reserved.
 		</div>
 	</footer>
 
